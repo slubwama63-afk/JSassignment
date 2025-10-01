@@ -41,6 +41,7 @@ myFirstfunction(int)
 
 */
 
+//uppgift 1
 /* function calculateCircleArea(radius) {
 const pi= Math.PI;
   return pi * radius * radius;
@@ -52,7 +53,7 @@ console.log(formattedArea); */
 
 
 
-
+//uppgift 2
 /*function negateNumber(number){
   return -number;
 }
@@ -61,6 +62,7 @@ const negatedOutput = negateNumber(inputNumber);
 console.log(negatedOutput);
 */
 
+//uppgift 3
 /*function calculateBMIweight(weight, height) {
   return weight / (height * height);
 }
@@ -71,6 +73,7 @@ const formattedBMI = BMI.toFixed(2).replace(".", "");
 console.log(formattedBMI);
 */
 
+//uppgift 4
 /*
 function calculateHypotenuse(a, b){
   return Math.sqrt((a * a) + (b * b));
@@ -80,6 +83,7 @@ const sideB = 4;
 const hypotenuse = calculateHypotenuse(sideA, sideB);
 console.log(hypotenuse); */
 
+//uppgift 5
 function convertSeconds (totalSeconds) {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
