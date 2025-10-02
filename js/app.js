@@ -2,7 +2,7 @@
 //1/10-2025
 // slubwama63@gmail.com
 
-console.log(
+/*console.log(
   "Heja Dicey!"
 );
 console.log("First");
@@ -19,9 +19,240 @@ console.log("this is line 1");
  // det här är en kommentar
 /* det här är också en kommentar */
 
-let kmPerHour = 72; //input
+
+
+
+
+/* const string= "green bottles hanging on the wall";
+let numberOfbottles = 10;
+const string2 = "And if one green bottle should accidentally fall, there will be" + -- numberOfbottles;
+
+
+console.log( string + ". " + string2 +); */
+
+/*const string= "Green bottles hanging on the wall";
+let numberOfbottles= 10;
+let string2 = "And if one green bottle should accidentally fall, there will be";
+for (let i = numberOfbottles; 0 <i; i --) {
+  if (i !== numberOfbottles) {
+    console.log(string2 + i + string);
+  }
+  console.log(i + string + ". "+string2);
+} */
+
+
+
+ /* let bool=true;
+console.log(bool);
+console.log(!bool);
+
+  */
+
+ /* const age= 26;
+const birthyear= 1999;
+let condition= (age == 26  || birthyear == 1997);
+console.log(condition);
+
+function getAge() {
+  return age;
+}
+let ages = getAge(); // första exemplet
+console.log(ages);
+let results = getAge();
+
+results = 26; // enklare sätt att få ut resultat istället exemplet ovan
+console.log(results); */
+
+ /* let bool= false;
+bool = !bool;
+console.log(bool); */
+
+
+/* let isGreater = 10 > 9;
+console.log(isGreater); */
+
+/* const birthYear = 1999;
+let age = 11;
+let isChild = (0 >= age <= 10);
+console.log(isChild);
+
+let age2 = 19;
+let isTeenager = 10<= age >= 19 ;
+console.log(isTeenager);
+
+let age3 = 27;
+let isAdult = (age3 >= isTeenager >= isChild);
+console.log(isAdult); */
+
+  /*const birthYear = 1999;
+let age = 9;
+let isChild = (0 <= age  && age <= 10);
+console.log(isChild);
+
+let age2 = 19;
+let isTeenager = 10<= age && age <= 19 ;
+console.log(isTeenager);
+
+let age3 = 27;
+let isAdult = (19 < age);
+console.log(isAdult); */
+
+
+ /*let birthYear = 2000;
+let favoriteNumber = 21;
+let isAdult = favoriteNumber <= birthYear;
+let age =  2025 - birthYear;
+console.log(isAdult);
+
+if (0 <= age && age < 10) {
+  console.log("You are a child");
+} else if (10 <= age && age < 20){
+  console.log("You are a teenager");
+
+} else {
+  console.log("You are a adult");
+} */
+
+
+ /*function makeLasgana(){
+  console.log("Fry meat.");
+  console.log("Cut onions.");
+  console.log("Fry onions.");
+  console.log("Add tomato sauce.");
+  console.log("Add spices.");
+  console.log("Boil.");
+}
+makeLasgana();
+let isHungry = false;
+//breakfast
+if (isHungry){
+  makeLasgana();
+}
+//lunch
+isHungry = true;
+if (isHungry){
+  makeLasgana();
+  makeLasgana();
+} */
+
+
+
+  // dinner
+
+
+/*let listExample = [1, 2, 3, 4, 5];// kan va bra om man har flera av liknande datortyp exempelvis en talföljd
+listExample.forEach(char => console.log(char));
+function moveforward (){
+  console.log ("forward ");
+}
+moveforward ();
+moveforward ();
+moveforward ();
+
+function turnright () {
+  console.log ("turnright");
+
+}
+turnright ();
+turnright ();
+moveforward ();
+moveforward ();
+moveforward ();
+
+turnright ();
+turnright ();
+turnright ();
+
+moveforward ();
+moveforward ();
+moveforward ();
+
+turnright ();
+turnright ();
+turnright ();
+
+moveforward ();
+
+turnright ();
+turnright ();
+
+moveforward (); */
+
+/*let listMove= ["F","F","F","R","R","F","F","F","R","R","R","F","F","F","R","R","R","F","R","R","F"];
+listMove.forEach (char=>{
+  if (char == "F") {
+  console.log ("Move Forward")
+} else if (char == "R"){
+  console.log ("Turn Right")
+  }}
+) */
+
+function doubleNumber(numberToDouble) {
+  return numberToDouble * 2;
+}
+console.log(doubleNumber(2));
+
+function doubleNumber2(numberToDouble) {
+  return numberToDouble * 2;
+}
+console.log(doubleNumber2(8));
+
+function dubbelNumber (number1,number2) {
+  return number1 * number2;
+}
+console.log(dubbelNumber(4,6));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*let kmPerHour = 72; //input
 let metersPerSecond = kmPerHour / 3.6; // conversion
-console.log (metersPerSecond); //output : 20
+console.log (metersPerSecond); //output : 20 */
 
 /*let minutes = 3; //input
 let seconds = minutes * 60;
@@ -84,14 +315,15 @@ const hypotenuse = calculateHypotenuse(sideA, sideB);
 console.log(hypotenuse); */
 
 //uppgift 5
-function convertSeconds (totalSeconds) {
+
+/* function convertSeconds (totalSeconds) {
   const minutes = Math.floor(totalSeconds / 60);
   const seconds = totalSeconds % 60;
   return `${minutes} minute(s) and second(s) ${seconds}`;
 }
 const inputSeconds = 111;
 const result = convertSeconds(inputSeconds);
-console.log(result);
+console.log(result); */
 
 
 
